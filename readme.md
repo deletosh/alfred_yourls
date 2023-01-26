@@ -1,12 +1,24 @@
 Shorten clipboard content with YOURLS, then copy short URL to clipboard
 
-== SETUP ==
+### [Download Workflow](https://github.com/deletosh/alfred_yourls/raw/main/Shorten%20URL%20with%20YOURLS.alfredworkflow)
 
-Fill out the configuration settings (or edit the "Run Script" utility). You will need to insert the domain (without the http or https) of your YOURLS installation and your signature token, which you find by going to your Admin Interface and clicking on "Tools".
+![](https://i.imgur.com/6boCXFC.gif)
 
-The workflow itself works via the keyword "y", though you can change that of course, and it looks for the URL in your clipboard. The resulting short URL is then again copied to your clipboard. Optionally you can type something after the keyword separated by "*". E.g. you can short type, `y google.com*my search` and you get "yourshortdomain/my-search"
 
-== Credit == 
+
+#### Setup
+
+1. Fill out the configuration settings (or edit the "Run Script" utility). 
+2. Enter the domain (without the http or https) of your YOURLS installation 
+3. Enter your signature token (which you find by going to your Admin Interface and clicking on "Tools")
+4. Done.
+
+This workflow works with the keyword "y", you can change that of course.
+
+
+The resulting short URL is then again copied to your clipboard. Optionally you can type something after the keyword separated by "*". E.g. you can short type, `y google.com*my search` and you get "yourshortdomain/my-search"
+
+#### Credit
 Based on the work of:
 
 - https://github.com/smoitzheim/alfred_yourls and
