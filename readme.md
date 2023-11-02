@@ -5,6 +5,8 @@ Shorten clipboard content with YOURLS, then copy short URL to clipboard
 ![](https://i.imgur.com/6boCXFC.gif)
 
 
+### Pre-req
+1. Install php: `brew install php`
 
 #### Setup
 
